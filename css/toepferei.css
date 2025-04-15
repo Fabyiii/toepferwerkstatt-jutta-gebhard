@@ -48,6 +48,18 @@ body {
     object-fit: contain;
 }
 
+@media (max-width: 992px) { /* Für Bildschirme kleiner als 992px (Bootstrap-Breakpoint für große Bildschirme) */
+    .modal-dialog {
+        display: none !important; /* Versteckt das Modal */
+    }
+}
+
+@media (min-width: 992px) { /* Für Bildschirme ab 992px */
+    .modal-dialog {
+        display: flex !important; /* Zeigt das Modal */
+    }
+}
+
 .modal-dialog {
     display: flex !important;
     align-items: center !important;
