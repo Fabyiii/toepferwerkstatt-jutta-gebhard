@@ -80,3 +80,18 @@ body {
     margin-left: 12%;
     margin-right: 12%;
 }
+
+hr {
+    border: 1px solid white !important;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.featurette {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+    align-items: center;
+}
