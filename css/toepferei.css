@@ -95,3 +95,19 @@ hr {
     justify-content: center;
     align-items: center;
 }
+
+#kurs-container{
+    background-image: url("../images/steinzeit_toepfern.png");
+    height: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+}
+
+#gallery-header{
+    background-image: url("../images/gallery.png");
+    height: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+}
