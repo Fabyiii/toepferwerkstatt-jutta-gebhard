@@ -15,6 +15,7 @@ function initializeGallery() {
             const img = document.createElement('img');
             img.src = `gallery/${folder}/${file}`;
             img.className = 'img-thumbnail';
+            img.loading = 'lazy';
             img.alt = file.replace(/_/g, ' ').replace(/\.\w+$/, '');
             container.appendChild(img);
           });
